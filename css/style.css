@@ -1,0 +1,123 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    line-height: 1.6;
+}
+
+.top {
+    text-align: center;
+    padding: 40px 20px;
+    text-shadow: 3px 3px 2px #3B4CCA;
+
+    background-image: url('../img/pokemon_banner.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.top h1 {
+    font-size: 40px;
+    color: #ffde00;
+    text-shadow: 2px 2px 3px #3B4CCA, -2px -2px 3px #3B4CCA, 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    background-image: url('../img/pokemon_banner.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    background-color: rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.6), 0 4px 6px rgba(0, 0, 0, 0.4);
+    padding: 10px 0;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    text-shadow: 1px 1px 1px #3B4CCA;
+}
+
+.menu a:hover {
+    color: #ffde00;
+}
+
+.games {
+    padding: 20px;
+    text-align: center;
+}
+
+.games h2 {
+    font-size: 1.8em;
+    margin-bottom: 25px;
+    color: #ffde00;
+    text-shadow: 3px 3px 2px #3B4CCA;
+}
+
+.games ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.games li {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.games li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.games li img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+}
+
+.games ul li a {
+    display: block;
+    text-decoration: none;
+    color: #f8f8f8;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.games ul li a:hover {
+    color: #ffde00;
+}
