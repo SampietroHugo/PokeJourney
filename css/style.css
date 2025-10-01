@@ -5,7 +5,7 @@
     font-family: 'Segoe UI', Arial, sans-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -147,4 +147,150 @@ body {
 
 .games ul li a:hover {
     color: #ffde00;
+}
+
+.game-title {
+    display: block;
+    max-width: 350px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 2rem;
+    margin-top: 1.2em;
+}
+
+.trainerCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    background: linear-gradient(135deg, #f8f9fa, #e0e0e0);
+    border: 3px solid #333;
+    border-radius: 15px;
+    padding: 20px;
+    width: 600px;
+    margin: 20px auto;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+    font-family: Verdana, sans-serif;
+}
+
+.trainerDisplay {
+    text-align: center;
+}
+
+.trainerDisplay p {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.trainerDisplay img {
+    width: 120px;
+
+    border: 1px solid #333;
+    border-radius: 50%;
+    background-color: #e0e0e6;
+}
+
+.trainer-info {
+    flex: 1;
+}
+
+.trainer-info p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+.badges {
+    margin-top: 10px;
+    border-top: 1px solid rgb(189, 185, 185);
+}
+
+.badges img {
+    width: 40px;
+    height: 40px;
+    margin: 10px 3px 3px;
+    background-color: #e0e0e6;
+    border: 1px solid #333;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.badges img:hover {
+    transform: scale(1.2);
+}
+
+.timePrincipal {
+    margin: 20px auto;
+    padding: 20px;
+    width: 700px;
+    background-color: #e0e0e6;
+    border: 3px solid #444;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.timePrincipal ol {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.timePrincipal li {
+    background: #fff;
+    border: 2px solid #aaa;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.timePrincipal li:hover {
+    transform: scale(1.05);
+}
+
+.timePrincipal li img {
+    width: 80px;
+}
+
+.atacks {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.atacks ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.atacks li {
+    margin: 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.atacks li img{
+    margin-left: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h3{
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #ffde00;
+    text-shadow: 3px 3px 2px #3B4CCA;
+    display: inline-block;
+    border-bottom: 3px solid #ffde00;
 }
