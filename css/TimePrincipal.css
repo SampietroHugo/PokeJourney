@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.timePrincipal {
+    background: #f2f9fb;
+    border: 4px solid #8ab4c8;
+    border-radius: 8px;
+    box-shadow: 0 0 0 0 4px #5c7f94, 0 6px 10px rgba(0, 0, 0, 0.15);
+    width: 1000px;
+    margin: 40px auto;
+    padding: 15px;
+    font-family: "Press Start 2P", monospace;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.timePrincipal .title {
+    background: linear-gradient(90deg, #8fc1d4 0%, #a5d6e0 100%);
+    border: 3px solid #5c7f94;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px #345060;
+}
+
+.timePrincipal .title h3 {
+    font-size: 12px;
+    margin: 0;
+}
+
+.timePrincipal ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.pokemonCard {
+    background: linear-gradient(180deg, #fdfefe 0%, #e6f1f6 100%);
+    border: 3px solid #a2c2cf;
+    border-radius: 6px;
+    box-shadow: 0 0 0 2px #8aa2ad, 0 4px 6px rgba(0, 0, 0, 0.15);
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.pokemonCard:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 0 2px #668899, 0 6px 10px rgba(0, 0, 0, 0.25);
+}
+
+.sprite {
+    width: 96px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.info {
+    width: 100%;
+    font-size: 9px;
+    text-align: left;
+}
+
+.info h4 {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 6px;
+    color: #2a4a6e;
+    text-shadow: 1px 1px #fff;
+}
+
+.info img {
+    width: 60px;
+    height: 12px;
+    filter: drop-shadow(1px 1px 0 #0003);
+}
+
+.atacks {
+    margin-top: 8px;
+    background: #eaf3f7;
+    border: 2px solid #a5c1d0;
+    border-radius: 6px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.atacks strong {
+    display: block;
+    font-size: 10px;
+    margin-bottom: 4px;
+    color: #1a1a1a;
+    letter-spacing: 0.5px;
+}
+
+.atacks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.atacks li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f7fbfc;
+    border: 1px solid #c6dce5;
+    border-radius: 4px;
+    padding: 3px 6px;
+    margin-bottom: 4px;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.atacks li:hover {
+    background: #d9eef6;
+    border-color: #90bcd3;
+    transform: scale(1.02);
+    transition: 0.15s ease;
+}
+
+.atacks li img {
+    width: 55px;
+    height: 11px;
+    margin-left: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
