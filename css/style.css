@@ -27,9 +27,10 @@ body {
 }
 
 .top h1 {
-    font-size: 40px;
+    font-size: 28px;
     color: #ffde00;
     text-shadow: 2px 2px 3px #3B4CCA, -2px -2px 3px #3B4CCA, 0 0 15px rgba(255, 255, 255, 0.8);
+    font-family: 'Press Start 2P', cursive;
 }
 
 .menu {
@@ -46,6 +47,7 @@ body {
     box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.6), 0 4px 6px rgba(0, 0, 0, 0.4);
     border-bottom: 3px solid #ffde00;
     padding: 10px 0;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .menu ul {
@@ -64,6 +66,7 @@ body {
     font-weight: bold;
     transition: color 0.3s;
     text-shadow: 1px 1px 1px #3B4CCA;
+    font-size: 10px;
 }
 
 .menu a:hover {
@@ -95,12 +98,13 @@ body {
 }
 
 .games h2 {
-    font-size: 1.8em;
+    font-size: 0.9em;
     margin-bottom: 25px;
     color: #ffde00;
     text-shadow: 3px 3px 2px #3B4CCA;
     display: inline-block;
     border-bottom: 3px solid #ffde00;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .games ul {
