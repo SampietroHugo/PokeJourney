@@ -54,8 +54,9 @@
 }
 
 .trainerDisplay img {
-    width: 120px;
-    justify-content: end;
+    width: auto;
+    height: 300px;
+    object-fit: contain;
 }
 
 .trainer-info {
