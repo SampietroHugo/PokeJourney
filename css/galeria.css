@@ -140,6 +140,10 @@
     background-color: #d8e0ff;
 }
 
+.steel {
+    background-color: #e2e5ee;
+}
+
 .shiny p:first-of-type {
     color: rgb(236, 202, 9);
     text-shadow: 1px 1px 0 yellow;
