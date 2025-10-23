@@ -186,6 +186,7 @@
       "image": "/img/pokemons/mew_FRLG.png",
       "alt": "Mew",
       "name": "Mew",
+      "trade": true,
       "number": "#0151",
       "game": "Fire Red",
       "date": "09/10/2025"
@@ -195,6 +196,7 @@
       "image": "/img/pokemons/mew_FRLG.png",
       "alt": "Mew",
       "name": "Mew",
+      "trade": true,
       "number": "#0151",
       "game": "Leaf Green",
       "date": "18/10/2025"
@@ -213,6 +215,7 @@
       "image": "/img/pokemons/raikou_FRLG.png",
       "alt": "Raikou",
       "name": "Raikou",
+      "trade": true,
       "number": "#0243",
       "game": "Fire Red",
       "date": "09/10/2025"
@@ -317,6 +320,24 @@
       "number": "#0386",
       "game": "Fire Red",
       "date": "08/10/2025"
-    }    
+    },
+    {
+      "type": "water",
+      "image": "/img/pokemons/milotic_e.png",
+      "alt": "Milotic",
+      "name": "Milotic",
+      "number": "#0350",
+      "game": "Emerald",
+      "date": "21/10/2025"
+    },
+    {
+      "type": "dragon",
+      "image": "/img/pokemons/rayquaza_e.png",
+      "alt": "Rayquaza",
+      "name": "Rayquaza",
+      "number": "#0384",
+      "game": "Emerald",
+      "date": "22/10/2025"
+    }
   ]
 }
