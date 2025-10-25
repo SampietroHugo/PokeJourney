@@ -24,7 +24,7 @@ body {
     padding: 40px 20px;
     text-shadow: 3px 3px 2px #3B4CCA;
 
-    background-image: url('../img/pokemon_banner.jpg');
+    background-image: url('/img/banners/iniciais.jpg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -38,7 +38,7 @@ body {
 }
 
 .menu {
-    background-image: url('../img/pokemon_banner.jpg');
+    background-image: url('/img/banners/iniciais.jpg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -79,7 +79,7 @@ body {
     margin-top: 40px;
 
     border-top: 3px solid #ffde00;
-    background-image: url('../img/pokemon_banner.jpg');
+    background-image: url('/img/banners/iniciais.jpg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;

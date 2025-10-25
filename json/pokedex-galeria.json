@@ -2,7 +2,7 @@
   "pokemons": [
     {
       "type": "grass",
-      "image": "/img/pokemons/venusaur_FRLG.png",
+      "image": "/img/pokemons/frlg/venusaur.png",
       "alt": "Venusaur",
       "name": "Venusaur",
       "number": "#0003",
@@ -11,7 +11,7 @@
     },
     {
       "type": "fire",
-      "image": "/img/pokemons/charizard_FRLG.png",
+      "image": "/img/pokemons/frlg/charizard.png",
       "alt": "Charizard",
       "name": "Charizard",
       "number": "#0006",
@@ -20,7 +20,7 @@
     },
     {
       "type": "electric",
-      "image": "/img/pokemons/raichu_FRLG.png",
+      "image": "/img/pokemons/frlg/raichu.png",
       "alt": "Raichu",
       "name": "Raichu",
       "number": "#0026",
@@ -29,7 +29,7 @@
     },
     {
       "type": "poison",
-      "image": "/img/pokemons/nidoking_FRLG.png",
+      "image": "/img/pokemons/frlg/nidoking.png",
       "alt": "Nidoking",
       "name": "Nidoking",
       "number": "#0034",
@@ -38,7 +38,7 @@
     },
     {
       "type": "psychic",
-      "image": "/img/pokemons/alakazam_FRLG.png",
+      "image": "/img/pokemons/frlg/alakazam.png",
       "alt": "Alakazam",
       "name": "Alakazam",
       "number": "#0065",
@@ -48,7 +48,7 @@
     {
       "type": "water",
       "shiny": true,
-      "image": "/img/pokemons/tentacool_shiny_e.png",
+      "image": "/img/pokemons/emerald/tentacool-shiny.png",
       "alt": "Shiny Tentacool",
       "name": "Tentacool",
       "number": "#0072",
@@ -57,7 +57,7 @@
     },
     {
       "type": "rock",
-      "image": "/img/pokemons/golem_FRLG.png",
+      "image": "/img/pokemons/frlg/golem.png",
       "alt": "Golem",
       "name": "Golem",
       "number": "#0076",
@@ -66,7 +66,7 @@
     },
     {
       "type": "ghost",
-      "image": "/img/pokemons/gengar_FRLG.png",
+      "image": "/img/pokemons/frlg/gengar.png",
       "alt": "Gengar",
       "name": "Gengar",
       "number": "#0094",
@@ -75,7 +75,7 @@
     },
     {
       "type": "water",
-      "image": "/img/pokemons/gyarados_FRLG.png",
+      "image": "/img/pokemons/frlg/gyarados.png",
       "alt": "Gyarados",
       "name": "Gyarados",
       "number": "#0130",
@@ -84,7 +84,7 @@
     },
     {
       "type": "water",
-      "image": "/img/pokemons/lapras_FRLG.png",
+      "image": "/img/pokemons/frlg/lapras.png",
       "alt": "Lapras",
       "name": "Lapras",
       "number": "#0131",
@@ -93,7 +93,7 @@
     },
     {
       "type": "electric",
-      "image": "/img/pokemons/jolteon_FRLG.png",
+      "image": "/img/pokemons/frlg/jolteon.png",
       "alt": "Jolteon",
       "name": "Jolteon",
       "number": "#0135",
@@ -102,7 +102,7 @@
     },
     {
       "type": "ice",
-      "image": "/img/pokemons/articuno_FRLG.png",
+      "image": "/img/pokemons/frlg/articuno.png",
       "alt": "Articuno",
       "name": "Articuno",
       "number": "#0144",
@@ -111,7 +111,7 @@
     },
     {
       "type": "ice",
-      "image": "/img/pokemons/articuno_FRLG.png",
+      "image": "/img/pokemons/frlg/articuno.png",
       "alt": "Articuno",
       "name": "Articuno",
       "number": "#0144",
@@ -120,7 +120,7 @@
     },
     {
       "type": "electric",
-      "image": "/img/pokemons/zapdos_FRLG.png",
+      "image": "/img/pokemons/frlg/zapdos.png",
       "alt": "Zapdos",
       "name": "Zapdos",
       "number": "#0145",
@@ -129,7 +129,7 @@
     },
     {
       "type": "electric",
-      "image": "/img/pokemons/zapdos_FRLG.png",
+      "image": "/img/pokemons/frlg/zapdos.png",
       "alt": "Zapdos",
       "name": "Zapdos",
       "number": "#0145",
@@ -138,7 +138,7 @@
     },
     {
       "type": "fire",
-      "image": "/img/pokemons/moltres_FRLG.png",
+      "image": "/img/pokemons/frlg/moltres.png",
       "alt": "Moltres",
       "name": "Moltres",
       "number": "#0146",
@@ -147,7 +147,7 @@
     },
     {
       "type": "fire",
-      "image": "/img/pokemons/moltres_FRLG.png",
+      "image": "/img/pokemons/frlg/moltres.png",
       "alt": "Moltres",
       "name": "Moltres",
       "number": "#0146",
@@ -156,7 +156,7 @@
     },
     {
       "type": "dragon",
-      "image": "/img/pokemons/dragonite_FRLG.png",
+      "image": "/img/pokemons/frlg/dragonite.png",
       "alt": "Dragonite",
       "name": "Dragonite",
       "number": "#0149",
@@ -165,7 +165,7 @@
     },
     {
       "type": "psychic",
-      "image": "/img/pokemons/mewtwo_FRLG.png",
+      "image": "/img/pokemons/frlg/mewtwo.png",
       "alt": "Mewtwo",
       "name": "Mewtwo",
       "number": "#0150",
@@ -174,7 +174,7 @@
     },
     {
       "type": "psychic",
-      "image": "/img/pokemons/mewtwo_FRLG.png",
+      "image": "/img/pokemons/frlg/mewtwo.png",
       "alt": "Mewtwo",
       "name": "Mewtwo",
       "number": "#0150",
@@ -183,7 +183,7 @@
     },
     {
       "type": "psychic",
-      "image": "/img/pokemons/mew_FRLG.png",
+      "image": "/img/pokemons/frlg/mew.png",
       "alt": "Mew",
       "name": "Mew",
       "trade": true,
@@ -193,7 +193,7 @@
     },
     {
       "type": "psychic",
-      "image": "/img/pokemons/mew_FRLG.png",
+      "image": "/img/pokemons/frlg/mew.png",
       "alt": "Mew",
       "name": "Mew",
       "trade": true,
@@ -203,7 +203,7 @@
     },
     {
       "type": "bug",
-      "image": "/img/pokemons/scizor_FRLG.png",
+      "image": "/img/pokemons/frlg/scizor.png",
       "alt": "Scizor",
       "name": "Scizor",
       "number": "#0212",
@@ -212,7 +212,7 @@
     },
     {
       "type": "electric",
-      "image": "/img/pokemons/raikou_FRLG.png",
+      "image": "/img/pokemons/frlg/raikou.png",
       "alt": "Raikou",
       "name": "Raikou",
       "trade": true,
@@ -222,7 +222,7 @@
     },
     {
       "type": "fire",
-      "image": "/img/pokemons/entei_FRLG.png",
+      "image": "/img/pokemons/frlg/entei.png",
       "alt": "Entei",
       "name": "Entei",
       "number": "#0244",
@@ -231,7 +231,7 @@
     },
     {
       "type": "water",
-      "image": "/img/pokemons/suicune_RS.png",
+      "image": "/img/pokemons/rs/suicune.png",
       "alt": "Suicune",
       "name": "Suicune",
       "number": "#0245",
@@ -240,7 +240,7 @@
     },
     {
       "type": "psychic",
-      "image": "/img/pokemons/lugia_FRLG.png",
+      "image": "/img/pokemons/frlg/lugia.png",
       "alt": "Lugia",
       "name": "Lugia",
       "number": "#0249",
@@ -249,7 +249,7 @@
     },
     {
       "type": "fire",
-      "image": "/img/pokemons/ho-oh_FRLG.png",
+      "image": "/img/pokemons/frlg/ho-oh.png",
       "alt": "Ho-Oh",
       "name": "Ho-Oh",
       "number": "#0250",
@@ -258,7 +258,7 @@
     },
     {
       "type": "grass",
-      "image": "/img/pokemons/sceptile_e.png",
+      "image": "/img/pokemons/emerald/sceptile.png",
       "alt": "Sceptile",
       "name": "Sceptile",
       "number": "#0254",
@@ -268,7 +268,7 @@
     {
       "type": "bug",
       "shiny": true,
-      "image": "/img/pokemons/beautifly_shiny_e.png",
+      "image": "/img/pokemons/emerald/beautifly-shiny.png",
       "alt": "Shiny Beautifly",
       "name": "Beautifly",
       "number": "#0267",
@@ -277,7 +277,7 @@
     },
     {
       "type": "psychic",
-      "image": "/img/pokemons/gardevoir_e.png",
+      "image": "/img/pokemons/emerald/gardevoir.png",
       "alt": "Gardevoir",
       "name": "Gardevoir",
       "number": "#0282",
@@ -286,7 +286,7 @@
     },
     {
       "type": "steel",
-      "image": "/img/pokemons/aggron_e.png",
+      "image": "/img/pokemons/emerald/aggron.png",
       "alt": "Aggron",
       "name": "Aggron",
       "number": "#0306",
@@ -295,7 +295,7 @@
     },
     {
       "type": "fire",
-      "image": "/img/pokemons/camerupt_e.png",
+      "image": "/img/pokemons/emerald/camerupt.png",
       "alt": "Camerupt",
       "name": "Camerupt",
       "number": "#0323",
@@ -305,7 +305,7 @@
     {
       "type": "normal",
       "shiny": true,
-      "image": "/img/pokemons/spinda_shiny_e.png",
+      "image": "/img/pokemons/emerald/spinda-shiny.png",
       "alt": "Shiny Spinda",
       "name": "Spinda",
       "number": "#0327",
@@ -313,17 +313,8 @@
       "date": "20/10/2025"
     },
     {
-      "type": "psychic",
-      "image": "/img/pokemons/deoxys_FRLG.png",
-      "alt": "Deoxys",
-      "name": "Deoxys",
-      "number": "#0386",
-      "game": "Fire Red",
-      "date": "08/10/2025"
-    },
-    {
       "type": "water",
-      "image": "/img/pokemons/milotic_e.png",
+      "image": "/img/pokemons/emerald/milotic.png",
       "alt": "Milotic",
       "name": "Milotic",
       "number": "#0350",
@@ -332,12 +323,93 @@
     },
     {
       "type": "dragon",
-      "image": "/img/pokemons/rayquaza_e.png",
+      "image": "/img/pokemons/emerald/rayquaza.png",
       "alt": "Rayquaza",
       "name": "Rayquaza",
       "number": "#0384",
       "game": "Emerald",
       "date": "22/10/2025"
+    },
+    {
+      "type": "psychic",
+      "image": "/img/pokemons/frlg/deoxys.png",
+      "alt": "Deoxys",
+      "name": "Deoxys",
+      "number": "#0386",
+      "game": "Fire Red",
+      "date": "08/10/2025"
+    },
+    {
+      "type": "ground",
+      "image": "/img/pokemons/emerald/groudon.png",
+      "alt": "Groudon",
+      "name": "Groudon",
+      "number": "#0383",
+      "game": "Emerald",
+      "date": "24/10/2025"
+    },
+    {
+      "type": "water",
+      "image": "/img/pokemons/emerald/kyogre.png",
+      "alt": "Kyogre",
+      "name": "Kyogre",
+      "number": "#0382",
+      "game": "Emerald",
+      "date": "24/10/2025"
+    },
+    {
+      "type": "rock",
+      "image": "/img/pokemons/emerald/regirock.png",
+      "alt": "Regirock",
+      "name": "Regirock",
+      "number": "#0377",
+      "game": "Emerald",
+      "date": "24/10/2025"
+    },
+    {
+      "type": "ice",
+      "image": "/img/pokemons/emerald/regice.png",
+      "alt": "Regice",
+      "name": "Regice",
+      "number": "#0378",
+      "game": "Emerald",
+      "date": "24/10/2025"
+    },
+    {
+      "type": "steel",
+      "image": "/img/pokemons/emerald/registeel.png",
+      "alt": "Registeel",
+      "name": "Registeel",
+      "number": "#0379",
+      "game": "Emerald",
+      "date": "24/10/2025"
+    },
+    {
+      "type": "dragon",
+      "image": "/img/pokemons/emerald/latias.png",
+      "alt": "Latias",
+      "name": "Latias",
+      "number": "#0380",
+      "game": "Emerald",
+      "date": "24/10/2025"
+    },
+    {
+      "type": "dragon",
+      "image": "/img/pokemons/emerald/latios.png",
+      "alt": "Latios",
+      "name": "Latios",
+      "number": "#0381",
+      "game": "Emerald",
+      "date": "24/10/2025"
+    },
+    {
+      "type": "psychic",
+      "image": "/img/pokemons/emerald/deoxys.png",
+      "alt": "Deoxys",
+      "name": "Deoxys",
+      "number": "#0386",
+      "game": "Emerald",
+      "date": "24/10/2025"
     }
   ]
 }
