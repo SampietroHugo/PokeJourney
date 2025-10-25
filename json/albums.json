@@ -1,0 +1,320 @@
+{
+  "emerald": [
+    {
+      "img": "/img/archives/emerald/wurmple-shiny.png",
+      "alt": "Wurmple Shiny",
+      "descricao": "Encontro e captura de um Wurmple shiny, na rota 102.",
+      "data": "18/10/2025"
+    },
+    {
+      "img": "/img/archives/emerald/spinda-shiny.png",
+      "alt": "Spinda Shiny",
+      "descricao": "Encontro e captura de um Spinda shiny, na rota 113.",
+      "data": "20/10/2025"
+    },
+    {
+      "img": "/img/archives/emerald/tentacool-shiny.png",
+      "alt": "Tentacool Shiny",
+      "descricao": "Encontro e captura de um Tentacool shiny, na rota 119.",
+      "data": "20/10/2025"
+    },
+    {
+      "img": "/img/archives/emerald/feebas-square.png",
+      "alt": "Feebas Square",
+      "descricao": "Square para encontrar Feebas.",
+      "data": "20/10/2025"
+    },
+    {
+      "img": "/img/archives/emerald/rayquaza.png",
+      "alt": "Rayquaza Encounter",
+      "descricao": "Encontro e captura de Rayquaza, no Sky Pillar.",
+      "data": "22/10/2025"
+    },
+    {
+      "img": "/img/archives/emerald/hall-of-fame.png",
+      "alt": "Hall of Fame",
+      "descricao": "Hall da Fama, primeira vitória contra a Elite Four.",
+      "data": "23/10/2025"
+    },
+    {
+      "img": "/img/archives/emerald/groudon.png",
+      "alt": "Groudon Encounter",
+      "descricao": "Encontro e captura de Groudon, na Terra Cave.",
+      "data": "24/10/2025"
+    },
+    {
+      "img": "/img/archives/emerald/kyogre.png",
+      "alt": "Kyogre Encounter",
+      "descricao": "Encontro e captura de Kyogre, na Marine Cave.",
+      "data": "24/10/2025"
+    },
+    {
+      "img": "/img/archives/emerald/regirock.png",
+      "alt": "Regirock Encounter",
+      "descricao": "Encontro e captura de Regirock, na Desert Ruins.",
+      "data": "24/10/2025"
+    },
+    {
+      "img": "/img/archives/emerald/regice.png",
+      "alt": "Regice Encounter",
+      "descricao": "Encontro e captura de Regice, na Island Cave.",
+      "data": "24/10/2025"
+    },
+    {
+      "img": "/img/archives/emerald/registeel.png",
+      "alt": "Registeel Encounter",
+      "descricao": "Encontro e captura de Registeel, na Ancient Tomb.",
+      "data": "24/10/2025"
+    },
+    {
+      "img": "/img/archives/emerald/latias.png",
+      "alt": "Latias Encounter",
+      "descricao": "Encontro e captura de Latias, na rota 110.",
+      "data": "24/10/2025"
+    },
+    {
+      "img": "/img/archives/emerald/latios.png",
+      "alt": "Latios Encounter",
+      "descricao": "Encontro e captura de Latios, na Southern Island.",
+      "data": "24/10/2025"
+    },
+    {
+      "img": "/img/archives/emerald/deoxys.png",
+      "alt": "Deoxys Encounter",
+      "descricao": "Encontro e captura de Deoxys, na Birth Island.",
+      "data": "24/10/2025"
+    }
+  ],
+  "fire_red": [
+    {
+      "img": "/img/archives/fire-red/articuno.png",
+      "alt": "Articuno Battle",
+      "descricao": "Encontro e captura de Articuno, na Seafoam Islands.",
+      "data": "06/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/zapdos.png",
+      "alt": "Zapdos Battle",
+      "descricao": "Encontro e captura de Zapdos, na Power Plant.",
+      "data": "06/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/moltres.png",
+      "alt": "Moltres Battle",
+      "descricao": "Encontro e captura de Moltres, no Mt. Ember.",
+      "data": "06/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/hall-of-fame.png",
+      "alt": "Hall da Fama",
+      "descricao": "Hall da Fama, primeira vitória contra a Elite Four.",
+      "data": "06/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/unown-collection.png",
+      "alt": "Coleção de Unowns",
+      "descricao": "Coleção com todos os Unown.",
+      "data": "07/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/suicune.png",
+      "alt": "Encontro com Suicune",
+      "descricao": "Encontro e captura de Suicune, na rota 7.",
+      "data": "08/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/mewtwo.png",
+      "alt": "Encontro com Mewtwo",
+      "descricao": "Encontro e captura de Mewtwo, na Cerulean Cave.",
+      "data": "08/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/hall-of-fame-rematch.png",
+      "alt": "Hall of Fame Rematch",
+      "descricao": "Hall da Fama, vitória de revanche na Elite Four.",
+      "data": "08/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/ho-oh.png",
+      "alt": "Encontro com Ho-Oh",
+      "descricao": "Encontro e captura de Ho-Oh, na Navel Rock.",
+      "data": "08/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/lugia.png",
+      "alt": "Encontro com Lugia",
+      "descricao": "Encontro e captura de Lugia, na Navel Rock.",
+      "data": "08/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/deoxys.png",
+      "alt": "Encontro com Deoxys",
+      "descricao": "Encontro e captura de Deoxys, na Birth Island.",
+      "data": "08/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/raikou.png",
+      "alt": "Troca Raikou",
+      "descricao": "Raikou do evento de 10º aniversário Pokémon (2006). Adquirido por troca.",
+      "data": "09/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/mew.png",
+      "alt": "Troca Mew",
+      "descricao": "Mew do evento europeu Aura (2007). Adquirido por troca.",
+      "data": "09/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/1-pokedex-box.png",
+      "alt": "Pokédex Box 1",
+      "descricao": "1ª Box da Pokédex, do nº0001 ao nº0030.",
+      "data": "15/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/2-pokedex-box.png",
+      "alt": "Pokédex Box 2",
+      "descricao": "2ª Box da Pokédex, do nº0031 ao nº0060.",
+      "data": "15/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/3-pokedex-box.png",
+      "alt": "Pokédex Box 3",
+      "descricao": "3ª Box da Pokédex, do nº0061 ao nº0090.",
+      "data": "15/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/4-pokedex-box.png",
+      "alt": "Pokédex Box 4",
+      "descricao": "4ª Box da Pokédex, do nº0091 ao nº0120.",
+      "data": "15/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/5-pokedex-box.png",
+      "alt": "Pokédex Box 5",
+      "descricao": "5ª Box da Pokédex, do nº0121 ao nº0150.",
+      "data": "15/10/2025"
+    },
+    {
+      "img": "/img/archives/fire-red/certificado-pokedex.png",
+      "alt": "Certificado Pokédex",
+      "descricao": "Certificado por capturar os 151 pokémons da Pokédex.",
+      "data": "15/10/2025"
+    }
+  ],
+  "leaf_green": [
+    {
+      "img": "/img/archives/leaf-green/articuno.png",
+      "alt": "Articuno Encounter",
+      "descricao": "Encontro e captura de Articuno, na Seafoam Islands.",
+      "data": "12/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/zapdos.png",
+      "alt": "Zapdos Encounter",
+      "descricao": "Encontro e captura de Zapdos, na Power Plant.",
+      "data": "12/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/moltres.png",
+      "alt": "Moltres Encounter",
+      "descricao": "Encontro e captura de Moltres, Mt. Ember.",
+      "data": "13/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/hall-of-fame.png",
+      "alt": "Hall da Fama",
+      "descricao": "Hall da Fama, primeira vitória contra a Elite Four.",
+      "data": "14/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/entei.png",
+      "alt": "Entei Encounter",
+      "descricao": "Encontro e captura de Entei, na rota 7.",
+      "data": "16/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/mewtwo.png",
+      "alt": "Mewtwo Encounter",
+      "descricao": "Encontro e captura de Mewtwo, na Cerulean Cave.",
+      "data": "16/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/hall-of-fame-rematch.png",
+      "alt": "Hall of Fame Rematch",
+      "descricao": "Hall da Fama, vitória de revanche na Elite Four.",
+      "data": "17/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/1-pokedex-box.png",
+      "alt": "Pokédex Box 1",
+      "descricao": "1ª Box da Pokédex, do nº0001 ao nº0030.",
+      "data": "17/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/2-pokedex-box.png",
+      "alt": "Pokédex Box 2",
+      "descricao": "2ª Box da Pokédex, do nº0031 ao nº0060.",
+      "data": "17/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/dragonite-lvl100.png",
+      "alt": "Dragonite lvl100",
+      "descricao": "Dragonite upado ao lvl100.",
+      "data": "17/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/3-pokedex-box.png",
+      "alt": "Pokédex Box 3",
+      "descricao": "3ª Box da Pokédex, do nº0061 ao nº0090.",
+      "data": "17/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/4-pokedex-box.png",
+      "alt": "Pokédex Box 4",
+      "descricao": "4ª Box da Pokédex, do nº0091 ao nº0120.",
+      "data": "17/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/golem-lvl100.png",
+      "alt": "Golem lvl100",
+      "descricao": "Golem upado ao lvl100.",
+      "data": "18/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/5-pokedex-box.png",
+      "alt": "Pokédex Box 5",
+      "descricao": "5ª Box da Pokédex, do nº0121 ao nº0150.",
+      "data": "18/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/mew.png",
+      "alt": "Troca Mew",
+      "descricao": "Mew do evento europeu Aura (2007). Adquirido por troca.",
+      "data": "18/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/certificado-pokedex.png",
+      "alt": "Certificado Pokédex",
+      "descricao": "Certificado por capturar os 151 pokémons da Pokédex.",
+      "data": "18/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/gyarados-lvl100.png",
+      "alt": "Gyarados lvl100",
+      "descricao": "Gyarados upado ao lvl100.",
+      "data": "23/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/6-pokedex-box.png",
+      "alt": "Pokédex Box 6",
+      "descricao": "6ª Box da Pokédex, do nº0151 ao nº0180.",
+      "data": "23/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/7-pokedex-box.png",
+      "alt": "Pokédex Box 7",
+      "descricao": "7ª Box da Pokédex, do nº0181 ao nº0210.",
+      "data": "25/10/2025"
+    }
+  ]
+}
