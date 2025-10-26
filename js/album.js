@@ -41,8 +41,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                     <img src="${entry.img}" alt="${entry.alt}">
                 </div>
                 <div class="picturesInfo">
-                    <p class="descricao">${entry.descricao}</p>
-                    <p class="data">${entry.data}</p>
+                    <p class="descricao"><strong>Descrição: </strong>${entry.descricao}</p>
+                    <p class="data"><strong>Data: </strong>${entry.data}</p>
                 </div>
             `;
 

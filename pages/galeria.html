@@ -14,9 +14,31 @@
     <div id="header-placeholder"></div>
 
     <div class="maindex">
-        <h2>Maindex</h2>
+        <div class="maindex-header">
+            <h2>Maindex</h2>
+
+            <div class="contador">
+                <p id="totalCount">Total: 0</p>
+                <p id="shinyCount" class="filter-btn" data-filter="shiny">Shiny: 0</p>
+                <p id="tradeCount" class="filter-btn" data-filter="trade">Trocados: 0</p>
+                <p id="resetFilter" class="filter-btn" data-filter="all">Mostrar Todos</p>
+
+                <div class="dropdown">
+                    <p class="filter-btn" id="gameFilterBtn">Jogos ▼</p>
+                    <div class="dropdown-content">
+                        <p data-game="Fire Red">Fire Red</p>
+                        <p data-game="Leaf Green">Leaf Green</p>
+                        <p data-game="Emerald">Emerald</p>
+                        <p data-game="Ruby">Ruby</p>
+                        <p data-game="Sapphire">Sapphire</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="pokeContainer"></div>
     </div>
+
 
     <footer id="footer-placeholder"></footer>
 

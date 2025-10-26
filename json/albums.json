@@ -155,13 +155,13 @@
     {
       "img": "/img/archives/fire-red/raikou.png",
       "alt": "Troca Raikou",
-      "descricao": "Raikou do evento de 10º aniversário Pokémon (2006). Adquirido por troca.",
+      "descricao": "Raikou do evento Pokémon 10th Anniversary(2006 - Europa). Adquirido por troca.",
       "data": "09/10/2025"
     },
     {
       "img": "/img/archives/fire-red/mew.png",
       "alt": "Troca Mew",
-      "descricao": "Mew do evento europeu Aura (2007). Adquirido por troca.",
+      "descricao": "Mew do evento Aura (2007 - Europa). Adquirido por troca.",
       "data": "09/10/2025"
     },
     {
@@ -289,7 +289,7 @@
     {
       "img": "/img/archives/leaf-green/mew.png",
       "alt": "Troca Mew",
-      "descricao": "Mew do evento europeu Aura (2007). Adquirido por troca.",
+      "descricao": "Mew do evento Aura (2007 - Europa). Adquirido por troca.",
       "data": "18/10/2025"
     },
     {
@@ -315,6 +315,30 @@
       "alt": "Pokédex Box 7",
       "descricao": "7ª Box da Pokédex, do nº0181 ao nº0210.",
       "data": "25/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/alakazam-lvl100.png",
+      "alt": "Alakazam lvl100",
+      "descricao": "Alakazam upado ao lvl100.",
+      "data": "25/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/8-pokedex-box.png",
+      "alt": "Pokédex Box 8",
+      "descricao": "8ª Box da Pokédex, do nº211 ao nº240.",
+      "data": "25/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/raikou.png",
+      "alt": "Troca Raikou",
+      "descricao": "Raikou do evento Pokémon 10th Anniversary(2006 - Europa). Adquirido por troca.",
+      "data": "26/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/suicune.png",
+      "alt": "Troca Suicune",
+      "descricao": "Suicune do evento Pokémon 10th Anniversary(2006 - EUA). Adquirido por troca.",
+      "data": "26/10/2025"
     }
   ]
 }

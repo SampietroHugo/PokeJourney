@@ -410,6 +410,26 @@
       "number": "#0386",
       "game": "Emerald",
       "date": "24/10/2025"
+    },
+    {
+      "type": "electric",
+      "image": "/img/pokemons/frlg/raikou.png",
+      "alt": "Raikou",
+      "name": "Raikou",
+      "trade": true,
+      "number": "#0243",
+      "game": "Leaf Green",
+      "date": "26/10/2025"
+    },
+    {
+      "type": "water",
+      "image": "/img/pokemons/rs/suicune.png",
+      "alt": "Suicune",
+      "name": "Suicune",
+      "trade": true,
+      "number": "#0245",
+      "game": "Leaf Green",
+      "date": "26/10/2025"
     }
   ]
 }
