@@ -6,12 +6,12 @@ body {
     background-color: #121212;
     margin: 0;
     padding: 0;
-    font-family: 'Press Start 2P', cursive;
-    color: #fff;
-    line-height: 1.6;
 }
 
 .maindex {
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    line-height: 1.6;
     width: 90%;
     max-width: 1200px;
     margin: 40px auto;
@@ -293,6 +293,6 @@ body {
     background: rgba(0, 234, 255, 0.2);
 }
 
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content {
     display: block;
 }

@@ -341,3 +341,11 @@
 .picturesInfo strong {
     color: #004b63;
 }
+
+.shiny h4 {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 6px;
+    color: rgb(236, 202, 9);
+    text-shadow: 1px 1px 0 yellow;
+}

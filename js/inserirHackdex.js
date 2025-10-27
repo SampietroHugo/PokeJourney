@@ -1,4 +1,4 @@
-fetch('/json/pokedex-galeria.json')
+fetch('/json/hackdex.json')
   .then(res => res.json())
   .then(data => {
     const container = document.querySelector('.pokeContainer');

@@ -1,0 +1,23 @@
+{
+    "pokemons": [
+        {
+            "type": "grass",
+            "image": "/img/hack-roms/pokemons/gen9/sprigatito.png",
+            "alt": "Sprigatito",
+            "name": "Sprigatito",
+            "number": "#0906",
+            "game": "Quetzal",
+            "date": "27/10/2025"
+        },
+        {
+            "type": "normal",
+            "image": "/img/hack-roms/pokemons/gen6/fletchling-shiny.png",
+            "alt": "Fletchling",
+            "name": "Fletchling",
+            "shiny": true,
+            "number": "#0661",
+            "game": "Quetzal",
+            "date": "27/10/2025"
+        }
+    ]
+}

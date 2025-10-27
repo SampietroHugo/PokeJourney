@@ -339,6 +339,30 @@
       "alt": "Troca Suicune",
       "descricao": "Suicune do evento Pokémon 10th Anniversary(2006 - EUA). Adquirido por troca.",
       "data": "26/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/raichu-lvl100.png",
+      "alt": "Raichu lvl100",
+      "descricao": "Raichu upado ao lvl100.",
+      "data": "26/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/lugia.png",
+      "alt": "Encontro com Lugia",
+      "descricao": "Encontro e captura de Lugia, na Navel Rock.",
+      "data": "26/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/ho-oh.png",
+      "alt": "Encontro com Ho-Oh",
+      "descricao": "Encontro e captura de Ho-Oh, na Navel Rock.",
+      "data": "26/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/celebi.png",
+      "alt": "Troca Celebi",
+      "descricao": "Celebi Ageto, distribuido através do Pokémon Colosseum Bonus Disc(Japão). Adquirido por troca.",
+      "data": "26/10/2025"
     }
   ]
 }

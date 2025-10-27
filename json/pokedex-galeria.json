@@ -430,6 +430,34 @@
       "number": "#0245",
       "game": "Leaf Green",
       "date": "26/10/2025"
+    },
+    {
+      "type": "psychic",
+      "image": "/img/pokemons/frlg/lugia.png",
+      "alt": "Lugia",
+      "name": "Lugia",
+      "number": "#0249",
+      "game": "Leaf Green",
+      "date": "26/10/2025"
+    },
+    {
+      "type": "fire",
+      "image": "/img/pokemons/frlg/ho-oh.png",
+      "alt": "Ho-Oh",
+      "name": "Ho-Oh",
+      "number": "#0250",
+      "game": "Leaf Green",
+      "date": "26/10/2025"
+    },
+    {
+      "type": "grass",
+      "image": "/img/pokemons/frlg/celebi.png",
+      "alt": "Celebi",
+      "name": "Celebi",
+      "trade": true,
+      "number": "#0251",
+      "game": "Leaf Green",
+      "date": "26/10/2025"
     }
   ]
 }

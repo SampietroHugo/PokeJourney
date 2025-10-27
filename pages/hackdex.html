@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/galeria.css">
+    <title>Hyugo</title>
+</head>
+
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <div class="maindex">
+        <div class="maindex-header">
+            <h2>Hackdex</h2>
+
+            <div class="contador">
+                <p id="totalCount">Total: 0</p>
+                <p id="shinyCount" class="filter-btn" data-filter="shiny">Shiny: 0</p>
+                <p id="tradeCount" class="filter-btn" data-filter="trade">Trocados: 0</p>
+                <p id="resetFilter" class="filter-btn" data-filter="all">Mostrar Todos</p>
+
+                <div class="dropdown">
+                    <p class="filter-btn" id="gameFilterBtn">Jogos ▼</p>
+                    <div class="dropdown-content" id="gameList">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pokeContainer"></div>
+    </div>
+
+
+    <footer id="footer-placeholder"></footer>
+
+    <script src="/js/inserirHackdex.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
