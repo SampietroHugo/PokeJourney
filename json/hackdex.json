@@ -2,22 +2,64 @@
     "pokemons": [
         {
             "type": "grass",
-            "image": "/img/hack-roms/pokemons/gen9/sprigatito.png",
-            "alt": "Sprigatito",
-            "name": "Sprigatito",
-            "number": "#0906",
+            "image": "/img/hack-roms/pokemons/gen9/meowscarada.png",
+            "alt": "Meowscarada",
+            "name": "Meowscarada",
+            "number": "#0908",
             "game": "Quetzal",
-            "date": "27/10/2025"
+            "date": "28/10/2025"
+        },
+        {
+            "type": "bug",
+            "image": "/img/hack-roms/pokemons/gen4/vespiquen-shiny.png",
+            "alt": "Vespiquen",
+            "name": "Vespiquen",
+            "shiny": true,
+            "number": "#0416",
+            "game": "Quetzal",
+            "date": "28/10/2025"
+        },
+        {
+            "type": "bug",
+            "image": "/img/hack-roms/pokemons/gen2/scizor-shiny.png",
+            "alt": "Scizor",
+            "name": "Scizor",
+            "shiny": true,
+            "mega": true,
+            "megaSprite":"/img/hack-roms/pokemons/gen2/scizor-shiny-mega.png", 
+            "number": "#0212",
+            "game": "Quetzal",
+            "date": "28/10/2025"
+        },
+        {
+            "type": "fire",
+            "image": "/img/hack-roms/pokemons/gen1/ninetales-shiny.png",
+            "alt": "Ninetales",
+            "name": "Ninetales",
+            "shiny": true,
+            "number": "#0038",
+            "game": "Quetzal",
+            "date": "28/10/2025"
         },
         {
             "type": "normal",
-            "image": "/img/hack-roms/pokemons/gen6/fletchling-shiny.png",
-            "alt": "Fletchling",
-            "name": "Fletchling",
-            "shiny": true,
-            "number": "#0661",
+            "image": "/img/hack-roms/pokemons/gen5/zoroark-hisuian.png",
+            "alt": "Zoroark",
+            "name": "Zoroark",
+            "number": "#0571",
             "game": "Quetzal",
-            "date": "27/10/2025"
+            "date": "28/10/2025"
+        },
+        {
+            "type": "psychic",
+            "image": "/img/hack-roms/pokemons/gen8/hatterene.png",
+            "alt": "Hatterene",
+            "name": "Hatterene",
+            "gigantamax": true,
+            "gigantamaxSprite": "/img/hack-roms/pokemons/gen8/hatterene-gigantamax.png",
+            "number": "#0858",
+            "game": "Quetzal",
+            "date": "28/10/2025"
         }
     ]
 }

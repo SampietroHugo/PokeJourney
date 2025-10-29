@@ -349,3 +349,9 @@
     color: rgb(236, 202, 9);
     text-shadow: 1px 1px 0 yellow;
 }
+
+.spriteHR{
+    width: 140px;
+    height: 140px;
+    margin-bottom: 8px;
+}

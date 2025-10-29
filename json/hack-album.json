@@ -1,10 +1,22 @@
 {
     "quetzal": [
         {
-            "img": "/img/hack-roms/archives/quetzal/shiny-fletchling.png",
-            "alt": "Fletchling Shiny",
-            "descricao": "Encontro e captura de um Fletchling shiny.",
-            "data": "27/10/2025"
+            "img": "/img/hack-roms/archives/quetzal/combee-shiny.png",
+            "alt": "Combee Shiny",
+            "descricao": "Encontro e captura de uma Combee shiny.",
+            "data": "28/10/2025"
+        },
+        {
+            "img": "/img/hack-roms/archives/quetzal/scyther-shiny.png",
+            "alt": "Scyther Shiny",
+            "descricao": "Encontro e captura de um Scyther shiny.",
+            "data": "28/10/2025"
+        },
+        {
+            "img": "/img/hack-roms/archives/quetzal/vulpix-shiny.png",
+            "alt": "Vulpix Shiny",
+            "descricao": "Encontro e captura de uma Vulpix shiny.",
+            "data": "28/10/2025"
         }
     ]
 }

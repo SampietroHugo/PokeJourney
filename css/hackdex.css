@@ -65,7 +65,7 @@ body {
     justify-content: center;
 }
 
-.pokemon {
+.pokemonHR {
     background: #fff;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -77,16 +77,16 @@ body {
     position: relative;
 }
 
-.pokemon:hover {
+.pokemonHR:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 18px rgba(0, 255, 255, 0.25);
 }
 
-.imgContainer {
+.imgContainerHR {
     background: rgba(255, 255, 255, 0.8);
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     margin: 0 auto 15px auto;
     display: flex;
     align-items: center;
@@ -94,12 +94,12 @@ body {
     position: relative;
 }
 
-.imgContainer img {
-    width: 90px;
+.imgContainerHR img {
+    width: 140px;
     height: auto;
 }
 
-.icon-container {
+.icon-containerHR {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -109,9 +109,9 @@ body {
     z-index: 2;
 }
 
-.icon {
-    width: 20px;
-    height: 20px;
+.iconHR {
+    width: 25px;
+    height: 25px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -119,34 +119,57 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.7);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
     background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    transition: transform 0.2s ease;
 }
 
-.shiny-icon {
+.iconHR:hover {
+    transform: scale(1.1);
+}
+
+.shiny-iconHR {
     background-image: url('/img/icons/shiny-icon.png');
 }
 
-.trade-icon {
+.trade-iconHR {
     background-image: url('/img/icons/traded-icon.png');
 }
 
-.info {
+.giga-iconHR {
+    background-image: url('/img/icons/gigantamax.png');
+}
+
+.mega-iconHR {
+    background-image: url('/img/icons/mega-evolution.png');
+}
+
+.poke-sprite {
+    transition: opacity 0.25s ease-in-out;
+}
+
+.poke-sprite.fade-out {
+    opacity: 0;
+}
+
+
+.infoHR {
     text-align: center;
     font-size: 0.65em;
     color: #444;
 }
 
-.info p {
+.infoHR p {
     margin: 8px 0;
     line-height: 1.6;
 }
 
-.info .name-wrapper p {
+.infoHR .name-wrapperHR p {
     color: #063358;
     font-size: 1em;
     letter-spacing: 1px;
 }
 
-.info>p:nth-of-type(1) {
+.infoHR>p:nth-of-type(1) {
     display: inline-block;
     background: #e8f0ff;
     border-radius: 12px;
@@ -155,80 +178,80 @@ body {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05);
 }
 
-.info>p:nth-of-type(2) {
+.infoHR>p:nth-of-type(2) {
     display: block;
     background: none;
     padding: 0;
     box-shadow: none;
 }
 
-.pokemon.shiny {
+.pokemonHR.shinyHR {
     border-color: #ffd700;
     box-shadow: 0 0 12px rgba(255, 215, 0, 0.4);
 }
 
-.pokemon.trade {
+.pokemonHR.tradeHR {
     border-color: #00eaff;
     box-shadow: 0 0 12px rgba(0, 234, 255, 0.4);
 }
 
-.fire {
+.pokemonHR.fire {
     background-color: #ffd6d6;
 }
 
-.water {
+.pokemonHR.water {
     background-color: #d6ecff;
 }
 
-.electric {
+.pokemonHR.electric {
     background-color: #fff7cc;
 }
 
-.grass {
+.pokemonHR.grass {
     background-color: #d9ffd9;
 }
 
-.ice {
+.pokemonHR.ice {
     background-color: #e0f9ff;
 }
 
-.rock {
+.pokemonHR.rock {
     background-color: #e6e0d1;
 }
 
-.ground {
+.pokemonHR.ground {
     background-color: #f5e3c3;
 }
 
-.bug {
+.pokemonHR.bug {
     background-color: #eaffd4;
 }
 
-.poison {
+.pokemonHR.poison {
     background-color: #f0dcff;
 }
 
-.psychic {
+.pokemonHR.psychic {
     background-color: #ffd1f2;
 }
 
-.normal {
+.pokemonHR.normal {
     background-color: #f2f2f2;
 }
 
-.flying {
+.pokemonHR.flying {
     background-color: #e4f0ff;
 }
 
-.ghost {
+.pokemonHR.ghost {
     background-color: #ebe0ff;
 }
 
-.dragon {
+.pokemonHR.dragon {
     background-color: #d8e0ff;
 }
 
-.steel {
+.pokemonHR.steel {
     background-color: #e2e5ee;
 }
 
