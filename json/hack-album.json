@@ -17,6 +17,24 @@
             "alt": "Vulpix Shiny",
             "descricao": "Encontro e captura de uma Vulpix shiny.",
             "data": "28/10/2025"
+        },
+        {
+            "img": "/img/hack-roms/archives/quetzal/hall-of-fame.png",
+            "alt": "Hall da Fama",
+            "descricao": "Hall da Fama, primeira vitória contra a Elite Four.",
+            "data": "29/10/2025"
+        },
+        {
+            "img": "/img/hack-roms/archives/quetzal/rayquaza.png",
+            "alt": "Rayquaza Encounter",
+            "descricao": "Encontro e captura de Rayquaza.",
+            "data": "29/10/2025"
+        },
+        {
+            "img": "/img/hack-roms/archives/quetzal/rayquaza-shiny.png",
+            "alt": "Rayquaza Shiny Encounter",
+            "descricao": "Encontro e captura de um Rayquaza Shiny.",
+            "data": "29/10/2025"
         }
     ]
 }

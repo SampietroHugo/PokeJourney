@@ -26,7 +26,7 @@
             "name": "Scizor",
             "shiny": true,
             "mega": true,
-            "megaSprite":"/img/hack-roms/pokemons/gen2/scizor-shiny-mega.png", 
+            "megaSprite": "/img/hack-roms/pokemons/gen2/scizor-shiny-mega.png",
             "number": "#0212",
             "game": "Quetzal",
             "date": "28/10/2025"
@@ -60,6 +60,42 @@
             "number": "#0858",
             "game": "Quetzal",
             "date": "28/10/2025"
+        },
+        {
+            "type": "water",
+            "image": "/img/hack-roms/pokemons/gen7/primarina.png",
+            "alt": "Primarina",
+            "name": "Primarina",
+            "number": "#0730",
+            "game": "Quetzal",
+            "date": "29/10/2025"
+        },
+        {
+            "type": "dragon",
+            "image": "/img/hack-roms/pokemons/gen3/rayquaza.png",
+            "alt": "Rayquaza",
+            "name": "Rayquaza",
+            "alternate": true,
+            "alternateIcon": "/img/icons/tm-dragon.png",
+            "alternateSprite": "/img/hack-roms/pokemons/gen3/rayquaza-mega.png",
+            "alternateInfo": "Mega Evolução",
+            "number": "#0384",
+            "game": "Quetzal",
+            "date": "29/10/2025"
+        },
+        {
+            "type": "dragon",
+            "image": "/img/hack-roms/pokemons/gen3/rayquaza-shiny.png",
+            "alt": "Rayquaza",
+            "name": "Rayquaza",
+            "shiny": true,
+            "alternate": true,
+            "alternateIcon": "/img/icons/tm-dragon.png",
+            "alternateSprite": "/img/hack-roms/pokemons/gen3/rayquaza-shiny-mega.png",
+            "alternateInfo": "Mega Evolução",
+            "number": "#0384",
+            "game": "Quetzal",
+            "date": "29/10/2025"
         }
     ]
 }

@@ -342,16 +342,56 @@
     color: #004b63;
 }
 
-.shiny h4 {
-    text-align: center;
-    font-size: 10px;
-    margin-bottom: 6px;
-    color: rgb(236, 202, 9);
-    text-shadow: 1px 1px 0 yellow;
-}
-
-.spriteHR{
+.spriteHR {
     width: 140px;
     height: 140px;
     margin-bottom: 8px;
+}
+
+.icon-containerHR {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 2;
+}
+
+.iconHR {
+    width: 22px;
+    height: 22px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.iconHR:hover {
+    transform: scale(1.1);
+}
+
+.shiny-iconHR {
+    background-image: url('/img/icons/shiny-icon.png');
+}
+
+.giga-iconHR {
+    background-image: url('/img/icons/gigantamax.png');
+}
+
+.mega-iconHR {
+    background-image: url('/img/icons/mega-evolution.png');
+}
+
+.spriteHR {
+    transition: opacity 0.25s ease-in-out;
+}
+
+.spriteHR.fade-out {
+    opacity: 0;
 }

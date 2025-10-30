@@ -109,6 +109,16 @@ body {
     z-index: 2;
 }
 
+.icon-containerHR-bottom {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 2;
+}
+
 .iconHR {
     width: 25px;
     height: 25px;
@@ -135,7 +145,7 @@ body {
     background-image: url('/img/icons/traded-icon.png');
 }
 
-.giga-iconHR {
+.gmax-iconHR {
     background-image: url('/img/icons/gigantamax.png');
 }
 

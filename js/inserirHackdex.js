@@ -20,18 +20,45 @@ fetch('/json/hackdex.json')
       container.classList.add('fade-out');
       setTimeout(() => {
         container.innerHTML = '';
+
         list.forEach(p => {
           const div = document.createElement('div');
           div.className = `pokemonHR ${p.type} ${p.shiny ? 'shinyHR' : ''} ${p.trade ? 'tradeHR' : ''}`;
 
+          let icons = `
+            ${p.shiny ? '<span class="iconHR shiny-iconHR" title="Shiny"></span>' : ''}
+            ${p.trade ? '<span class="iconHR trade-iconHR" title="Trocado"></span>' : ''}
+          `;
+
+          if (p.mega && p.megaSprite) {
+            icons += `<span class="iconHR mega-iconHR" title="Mega Evolução" data-alt-sprite="${p.megaSprite}"></span>`;
+          }
+
+          if (p.gigantamax && p.gigantamaxSprite) {
+            icons += `<span class="iconHR gmax-iconHR" title="Gigantamax" data-alt-sprite="${p.gigantamaxSprite}"></span>`;
+          }
+
+          if (p.alternate) {
+            icons += `
+            <span class="iconHR alternate-iconHR" 
+            title="${p.alternateInfo || 'Forma Alternativa'}" 
+            data-alt-sprite="${p.alternateSprite}"
+            style="background-image: url('${p.alternateIcon}')"></span>
+            `;
+          }
+
           div.innerHTML = `
             <div class="imgContainerHR">
               <div class="icon-containerHR">
-                ${p.shiny ? '<span class="iconHR shiny-iconHR" title="Shiny"></span>' : ''}
+               ${p.shiny ? '<span class="iconHR shiny-iconHR" title="Shiny"></span>' : ''}
                 ${p.trade ? '<span class="iconHR trade-iconHR" title="Trocado"></span>' : ''}
-                ${p.gigantamax ? '<span class="iconHR giga-iconHR" title="Gigantamax"></span>' : ''}
-                ${p.mega ? '<span class="iconHR mega-iconHR" title="Mega Evolução"></span>' : ''}
               </div>
+                <div class="icon-containerHR-bottom">
+                  ${p.mega ? `<span class="iconHR mega-iconHR" title="Mega" data-alt-sprite="${p.megaSprite}"></span>` : ''}
+                  ${p.gigantamax ? `<span class="iconHR gmax-iconHR" title="Gigantamax" data-alt-sprite="${p.gigantamaxSprite}"></span>` : ''}
+                  ${p.alternate ? `<span class="iconHR alternate-iconHR" title="${p.alternateInfo || 'Forma Alternativa'}" data-alt-sprite="${p.alternateSprite}" style="background-image: url('${p.alternateIcon}')"></span>` : ''}
+                </div>
+
               <img src="${p.image}" alt="${p.alt}" class="poke-sprite">
             </div>
             <div class="infoHR">
@@ -42,45 +69,30 @@ fetch('/json/hackdex.json')
             </div>`;
 
           const img = div.querySelector('.poke-sprite');
-          
-          if (p.gigantamax && p.gigantamaxSprite) {
-            const gigaIcon = div.querySelector('.giga-iconHR');
-            gigaIcon.addEventListener('mouseenter', () => {
-              img.classList.add('fade-out');
-              setTimeout(() => {
-                img.src = p.gigantamaxSprite;
-                img.classList.remove('fade-out');
-              }, 150);
-            });
-            gigaIcon.addEventListener('mouseleave', () => {
-              img.classList.add('fade-out');
-              setTimeout(() => {
-                img.src = p.image;
-                img.classList.remove('fade-out');
-              }, 150);
-            });
-          }
 
-          if (p.mega && p.megaSprite) {
-            const megaIcon = div.querySelector('.mega-iconHR');
-            megaIcon.addEventListener('mouseenter', () => {
+          div.querySelectorAll('.iconHR[data-alt-sprite]').forEach(icon => {
+            const newSprite = icon.dataset.altSprite;
+
+            icon.addEventListener('mouseenter', () => {
               img.classList.add('fade-out');
               setTimeout(() => {
-                img.src = p.megaSprite;
+                img.src = newSprite;
                 img.classList.remove('fade-out');
               }, 150);
             });
-            megaIcon.addEventListener('mouseleave', () => {
+
+            icon.addEventListener('mouseleave', () => {
               img.classList.add('fade-out');
               setTimeout(() => {
                 img.src = p.image;
                 img.classList.remove('fade-out');
               }, 150);
             });
-          }
+          });
 
           container.appendChild(div);
         });
+
         container.classList.remove('fade-out');
       }, 300);
     };
@@ -98,7 +110,6 @@ fetch('/json/hackdex.json')
 
     const gameList = document.getElementById('gameList');
     const jogosUnicos = [...new Set(pokemonsOrdenados.map(p => p.game))].sort();
-
     jogosUnicos.forEach(game => {
       const p = document.createElement('p');
       p.textContent = game;
@@ -117,7 +128,6 @@ fetch('/json/hackdex.json')
     const dropdown = document.querySelector('.dropdown');
     const gameFilterBtn = document.getElementById('gameFilterBtn');
     gameFilterBtn.addEventListener('click', () => dropdown.classList.toggle('open'));
-
     document.addEventListener('click', (e) => {
       if (!dropdown.contains(e.target) && e.target !== gameFilterBtn) {
         dropdown.classList.remove('open');
@@ -125,7 +135,5 @@ fetch('/json/hackdex.json')
     });
   })
   .catch(error => {
-    console.error('Erro ao carregar o JSON dos Pokémons:', error);
-    document.querySelector('.pokeContainer').innerHTML =
-      "<p style='color: white; font-family: sans-serif;'>Erro ao carregar a Pokédex. Verifique o console.</p>";
+    console.error('Erro ao carregar o JSON:', error);
   });
