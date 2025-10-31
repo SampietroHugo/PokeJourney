@@ -35,6 +35,24 @@
             "alt": "Rayquaza Shiny Encounter",
             "descricao": "Encontro e captura de um Rayquaza Shiny.",
             "data": "29/10/2025"
+        },
+        {
+            "img": "/img/hack-roms/archives/quetzal/groudon.png",
+            "alt": "Groudon Encounter",
+            "descricao": "Encontro e captura de Groudon.",
+            "data": "30/10/2025"
+        },
+        {
+            "img": "/img/hack-roms/archives/quetzal/kyogre.png",
+            "alt": "Kyogre Encounter",
+            "descricao": "Encontro e captura de Kyogre.",
+            "data": "30/10/2025"
+        },
+        {
+            "img": "/img/hack-roms/archives/quetzal/kyogre-shiny.png",
+            "alt": "Kyogre Shiny Encounter",
+            "descricao": "Encontro e captura de um Kyogre Shiny.",
+            "data": "30/10/2025"
         }
     ]
 }

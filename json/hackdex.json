@@ -25,8 +25,10 @@
             "alt": "Scizor",
             "name": "Scizor",
             "shiny": true,
-            "mega": true,
-            "megaSprite": "/img/hack-roms/pokemons/gen2/scizor-shiny-mega.png",
+            "alternate": true,
+            "alternateSprite": "/img/hack-roms/pokemons/gen2/scizor-shiny-mega.png",
+            "alternateIcon": "/img/items/scizorite.png",
+            "alternateInfo": "Mega Evolução",
             "number": "#0212",
             "game": "Quetzal",
             "date": "28/10/2025"
@@ -76,7 +78,7 @@
             "alt": "Rayquaza",
             "name": "Rayquaza",
             "alternate": true,
-            "alternateIcon": "/img/icons/tm-dragon.png",
+            "alternateIcon": "/img/items/tm-dragon.png",
             "alternateSprite": "/img/hack-roms/pokemons/gen3/rayquaza-mega.png",
             "alternateInfo": "Mega Evolução",
             "number": "#0384",
@@ -90,12 +92,48 @@
             "name": "Rayquaza",
             "shiny": true,
             "alternate": true,
-            "alternateIcon": "/img/icons/tm-dragon.png",
+            "alternateIcon": "/img/items/tm-dragon.png",
             "alternateSprite": "/img/hack-roms/pokemons/gen3/rayquaza-shiny-mega.png",
             "alternateInfo": "Mega Evolução",
             "number": "#0384",
             "game": "Quetzal",
             "date": "29/10/2025"
+        },
+        {
+            "type": "ground",
+            "image": "/img/hack-roms/pokemons/gen3/groudon.png",
+            "alt": "Groudon",
+            "name": "Groudon",
+            "alternate": true,
+            "alternateIcon": "/img/items/red-orb.png",
+            "alternateSprite": "/img/hack-roms/pokemons/gen3/groudon-primal.png",
+            "alternateInfo": "Forma Primordial",
+            "number": "#0383",
+            "game": "Quetzal",
+            "date": "30/10/2025"
+        },
+        {
+            "type": "water",
+            "image": "/img/hack-roms/pokemons/gen3/kyogre.png",
+            "alt": "Kyogre",
+            "name": "Kyogre",
+            "number": "#0382",
+            "game": "Quetzal",
+            "date": "30/10/2025"
+        },
+        {
+            "type": "water",
+            "image": "/img/hack-roms/pokemons/gen3/kyogre-shiny.png",
+            "alt": "Kyogre",
+            "name": "Kyogre",
+            "shiny": true,
+            "alternate": true,
+            "alternateIcon": "/img/items/blue-orb.png",
+            "alternateSprite": "/img/hack-roms/pokemons/gen3/kyogre-shiny-primal.png",
+            "alternateInfo": "Forma Primordial",
+            "number": "#0382",
+            "game": "Quetzal",
+            "date": "30/10/2025"
         }
     ]
 }

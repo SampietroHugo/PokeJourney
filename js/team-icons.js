@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const hasMega = card.dataset.mega;
         const hasGmax = card.dataset.gmax;
         const isShiny = card.dataset.shiny === 'true';
+        const itemIcon = card.querySelector('.item');
 
         const iconContainer = document.createElement('div');
         iconContainer.className = 'icon-containerHR';
@@ -18,28 +19,24 @@ document.addEventListener('DOMContentLoaded', () => {
             iconContainer.appendChild(shinyIcon);
         }
 
-        if (hasMega) {
-            const megaIcon = document.createElement('span');
-            megaIcon.className = 'iconHR mega-iconHR';
-            megaIcon.title = 'Mega Evolução';
-            iconContainer.appendChild(megaIcon);
+        if (hasMega && itemIcon) {
+            sprite.dataset.original = sprite.src;
 
-            megaIcon.addEventListener('mouseenter', () => {
+            itemIcon.addEventListener('mouseenter', () => {
                 sprite.classList.add('fade-out');
                 setTimeout(() => {
                     sprite.src = hasMega;
                     sprite.classList.remove('fade-out');
                 }, 150);
             });
-            megaIcon.addEventListener('mouseleave', () => {
+
+            itemIcon.addEventListener('mouseleave', () => {
                 sprite.classList.add('fade-out');
                 setTimeout(() => {
-                    sprite.src = card.querySelector('.spriteHR').dataset.original || sprite.src;
+                    sprite.src = sprite.dataset.original;
                     sprite.classList.remove('fade-out');
                 }, 150);
             });
-
-            sprite.dataset.original = sprite.src;
         }
 
         if (hasGmax) {
@@ -48,6 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
             gmaxIcon.title = 'Gigantamax';
             iconContainer.appendChild(gmaxIcon);
 
+            sprite.dataset.original = sprite.src;
+
             gmaxIcon.addEventListener('mouseenter', () => {
                 sprite.classList.add('fade-out');
                 setTimeout(() => {
@@ -55,6 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     sprite.classList.remove('fade-out');
                 }, 150);
             });
+
             gmaxIcon.addEventListener('mouseleave', () => {
                 sprite.classList.add('fade-out');
                 setTimeout(() => {
@@ -62,8 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     sprite.classList.remove('fade-out');
                 }, 150);
             });
-
-            sprite.dataset.original = sprite.src;
         }
     });
 });
