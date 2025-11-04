@@ -7,7 +7,8 @@
       "name": "Venusaur",
       "number": "#0003",
       "game": "Leaf Green",
-      "date": "09/10/2025"
+      "date": "09/10/2025",
+      "team": true
     },
     {
       "type": "fire",
@@ -16,7 +17,8 @@
       "name": "Charizard",
       "number": "#0006",
       "game": "Fire Red",
-      "date": "02/10/2025"
+      "date": "02/10/2025",
+      "team": true
     },
     {
       "type": "electric",
@@ -25,7 +27,8 @@
       "name": "Raichu",
       "number": "#0026",
       "game": "Leaf Green",
-      "date": "10/10/2025"
+      "date": "10/10/2025",
+      "team": true
     },
     {
       "type": "poison",
@@ -34,7 +37,8 @@
       "name": "Nidoking",
       "number": "#0034",
       "game": "Fire Red",
-      "date": "02/10/2025"
+      "date": "02/10/2025",
+      "team": true
     },
     {
       "type": "psychic",
@@ -43,7 +47,8 @@
       "name": "Alakazam",
       "number": "#0065",
       "game": "Leaf Green",
-      "date": "10/10/2025"
+      "date": "10/10/2025",
+      "team": true
     },
     {
       "type": "water",
@@ -62,7 +67,8 @@
       "name": "Golem",
       "number": "#0076",
       "game": "Leaf Green",
-      "date": "09/10/2025"
+      "date": "09/10/2025",
+      "team": true
     },
     {
       "type": "ghost",
@@ -71,7 +77,8 @@
       "name": "Gengar",
       "number": "#0094",
       "game": "Fire Red",
-      "date": "03/10/2025"
+      "date": "03/10/2025",
+      "team": true
     },
     {
       "type": "water",
@@ -80,7 +87,8 @@
       "name": "Gyarados",
       "number": "#0130",
       "game": "Leaf Green",
-      "date": "09/10/2025"
+      "date": "09/10/2025",
+      "team": true
     },
     {
       "type": "water",
@@ -89,7 +97,8 @@
       "name": "Lapras",
       "number": "#0131",
       "game": "Fire Red",
-      "date": "06/10/2025"
+      "date": "06/10/2025",
+      "team": true
     },
     {
       "type": "electric",
@@ -98,7 +107,8 @@
       "name": "Jolteon",
       "number": "#0135",
       "game": "Fire Red",
-      "date": "02/10/2025"
+      "date": "02/10/2025",
+      "team": true
     },
     {
       "type": "ice",
@@ -161,7 +171,8 @@
       "name": "Dragonite",
       "number": "#0149",
       "game": "Leaf Green",
-      "date": "10/10/2025"
+      "date": "10/10/2025",
+      "team": true
     },
     {
       "type": "psychic",
@@ -208,7 +219,8 @@
       "name": "Scizor",
       "number": "#0212",
       "game": "Fire Red",
-      "date": "02/10/2025"
+      "date": "02/10/2025",
+      "team": true
     },
     {
       "type": "electric",
@@ -263,7 +275,8 @@
       "name": "Sceptile",
       "number": "#0254",
       "game": "Emerald",
-      "date": "18/10/2025"
+      "date": "18/10/2025",
+      "team": true
     },
     {
       "type": "bug",
@@ -282,7 +295,8 @@
       "name": "Gardevoir",
       "number": "#0282",
       "game": "Emerald",
-      "date": "18/10/2025"
+      "date": "18/10/2025",
+      "team": true
     },
     {
       "type": "steel",
@@ -291,7 +305,8 @@
       "name": "Aggron",
       "number": "#0306",
       "game": "Emerald",
-      "date": "19/10/2025"
+      "date": "19/10/2025",
+      "team": true
     },
     {
       "type": "fire",
@@ -300,7 +315,8 @@
       "name": "Camerupt",
       "number": "#0323",
       "game": "Emerald",
-      "date": "20/10/2025"
+      "date": "20/10/2025",
+      "team": true
     },
     {
       "type": "normal",
@@ -319,7 +335,8 @@
       "name": "Milotic",
       "number": "#0350",
       "game": "Emerald",
-      "date": "21/10/2025"
+      "date": "21/10/2025",
+      "team": true
     },
     {
       "type": "dragon",
@@ -328,7 +345,18 @@
       "name": "Rayquaza",
       "number": "#0384",
       "game": "Emerald",
-      "date": "22/10/2025"
+      "date": "22/10/2025",
+      "team": true
+    },
+    {
+      "type": "grass",
+      "image": "/img/pokemons/emerald/treecko-shiny.png",
+      "alt": "Treecko",
+      "name": "Treecko",
+      "shiny": true,
+      "number": "#0252",
+      "game": "Emerald",
+      "date": "03/11/2025"
     },
     {
       "type": "psychic",
@@ -458,6 +486,86 @@
       "number": "#0251",
       "game": "Leaf Green",
       "date": "26/10/2025"
+    },
+    {
+      "type": "grass",
+      "image": "/img/pokemons/rs/breloom.png",
+      "alt": "Breloom",
+      "name": "Breloom",
+      "number": "#0286",
+      "game": "Ruby",
+      "date": "31/10/2025",
+      "team": true
+    },
+    {
+      "type": "electric",
+      "image": "/img/pokemons/rs/manectric.png",
+      "alt": "Manectric",
+      "name": "Manectric",
+      "number": "#0310",
+      "game": "Ruby",
+      "date": "01/11/2025",
+      "team": true
+    },
+    {
+      "type": "water",
+      "image": "/img/pokemons/rs/swampert.png",
+      "alt": "Swampert",
+      "name": "Swampert",
+      "number": "#0260",
+      "game": "Ruby",
+      "date": "31/10/2025",
+      "team": true
+    },
+    {
+      "type": "normal",
+      "image": "/img/pokemons/rs/zangoose-shiny.png",
+      "alt": "Zangoose",
+      "name": "Zangoose",
+      "shiny": true,
+      "number": "#0335",
+      "game": "Ruby",
+      "date": "03/11/2025"
+    },
+    {
+      "type": "normal",
+      "image": "/img/pokemons/rs/exploud.png",
+      "alt": "Exploud",
+      "name": "Exploud",
+      "number": "#0295",
+      "game": "Ruby",
+      "date": "31/10/2025",
+      "team": true
+    },
+    {
+      "type": "fire",
+      "image": "/img/pokemons/frlg/charizard-shiny.png",
+      "alt": "Charizard",
+      "name": "Charizard",
+      "shiny": true,
+      "number": "#0006",
+      "game": "Leaf Green",
+      "date": "03/11/2025"
+    },
+    {
+      "type": "dragon",
+      "image": "/img/pokemons/frlg/dratini-shiny.png",
+      "alt": "Dratini",
+      "name": "Dratini",
+      "shiny": true,
+      "number": "#0147",
+      "game": "Leaf Green",
+      "date": "03/11/2025"
+    },
+    {
+      "type": "ground",
+      "image": "/img/pokemons/rs/groudon.png",
+      "alt": "Groudon",
+      "name": "Groudon",
+      "number": "#0383",
+      "game": "Ruby",
+      "date": "03/11/2025",
+      "team": true
     }
   ]
 }

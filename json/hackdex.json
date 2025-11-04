@@ -134,6 +134,15 @@
             "number": "#0382",
             "game": "Quetzal",
             "date": "30/10/2025"
+        },
+        {
+            "type": "psychic",
+            "image": "/img/hack-roms/pokemons/gen1/mew.png",
+            "alt": "Mew",
+            "name": "Mew",
+            "number": "#0151",
+            "game": "Quetzal",
+            "date": "01/11/2025"
         }
     ]
 }

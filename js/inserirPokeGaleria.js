@@ -11,10 +11,12 @@ fetch('/json/pokedex-galeria.json')
     const total = pokemonsOrdenados.length;
     const shinies = pokemonsOrdenados.filter(p => p.shiny).length;
     const trades = pokemonsOrdenados.filter(p => p.trade).length;
+    const team = pokemonsOrdenados.filter(p => p.team).length;
 
     document.getElementById('totalCount').textContent = `Total: ${total}`;
     document.getElementById('shinyCount').textContent = `Shiny: ${shinies}`;
     document.getElementById('tradeCount').textContent = `Trocados: ${trades}`;
+    document.getElementById('teamCount').textContent = `Time: ${team}`;
 
     const renderPokemons = (list) => {
       container.classList.add('fade-out');
@@ -50,6 +52,7 @@ fetch('/json/pokedex-galeria.json')
         const filter = btn.dataset.filter;
         if (filter === 'shiny') renderPokemons(pokemonsOrdenados.filter(p => p.shiny));
         else if (filter === 'trade') renderPokemons(pokemonsOrdenados.filter(p => p.trade));
+        else if (filter === 'team') renderPokemons(pokemonsOrdenados.filter(p => p.team));
         else renderPokemons(pokemonsOrdenados);
       });
     });
@@ -89,4 +92,3 @@ fetch('/json/pokedex-galeria.json')
     document.querySelector('.pokeContainer').innerHTML =
       "<p style='color: white; font-family: sans-serif;'>Erro ao carregar a Pokédex. Verifique o console.</p>";
   });
-

@@ -53,6 +53,12 @@
             "alt": "Kyogre Shiny Encounter",
             "descricao": "Encontro e captura de um Kyogre Shiny.",
             "data": "30/10/2025"
+        },
+        {
+            "img": "/img/hack-roms/archives/quetzal/mew.png",
+            "alt": "Mew Encounter",
+            "descricao": "Encontro e captura de Mew.",
+            "data": "01/11/2025"
         }
     ]
 }

@@ -83,6 +83,12 @@
       "alt": "Deoxys Encounter",
       "descricao": "Encontro e captura de Deoxys, na Birth Island.",
       "data": "24/10/2025"
+    },
+    {
+      "img": "/img/archives/emerald/treecko-shiny.png",
+      "alt": "Treecko Shiny",
+      "descricao": "Egg hunt de Treecko Shiny. Após 298 ovos.",
+      "data": "03/11/2025"
     }
   ],
   "fire_red": [
@@ -245,48 +251,6 @@
       "data": "17/10/2025"
     },
     {
-      "img": "/img/archives/leaf-green/1-pokedex-box.png",
-      "alt": "Pokédex Box 1",
-      "descricao": "1ª Box da Pokédex, do nº0001 ao nº0030.",
-      "data": "17/10/2025"
-    },
-    {
-      "img": "/img/archives/leaf-green/2-pokedex-box.png",
-      "alt": "Pokédex Box 2",
-      "descricao": "2ª Box da Pokédex, do nº0031 ao nº0060.",
-      "data": "17/10/2025"
-    },
-    {
-      "img": "/img/archives/leaf-green/dragonite-lvl100.png",
-      "alt": "Dragonite lvl100",
-      "descricao": "Dragonite upado ao lvl100.",
-      "data": "17/10/2025"
-    },
-    {
-      "img": "/img/archives/leaf-green/3-pokedex-box.png",
-      "alt": "Pokédex Box 3",
-      "descricao": "3ª Box da Pokédex, do nº0061 ao nº0090.",
-      "data": "17/10/2025"
-    },
-    {
-      "img": "/img/archives/leaf-green/4-pokedex-box.png",
-      "alt": "Pokédex Box 4",
-      "descricao": "4ª Box da Pokédex, do nº0091 ao nº0120.",
-      "data": "17/10/2025"
-    },
-    {
-      "img": "/img/archives/leaf-green/golem-lvl100.png",
-      "alt": "Golem lvl100",
-      "descricao": "Golem upado ao lvl100.",
-      "data": "18/10/2025"
-    },
-    {
-      "img": "/img/archives/leaf-green/5-pokedex-box.png",
-      "alt": "Pokédex Box 5",
-      "descricao": "5ª Box da Pokédex, do nº0121 ao nº0150.",
-      "data": "18/10/2025"
-    },
-    {
       "img": "/img/archives/leaf-green/mew.png",
       "alt": "Troca Mew",
       "descricao": "Mew do evento Aura (2007 - Europa). Adquirido por troca.",
@@ -299,36 +263,6 @@
       "data": "18/10/2025"
     },
     {
-      "img": "/img/archives/leaf-green/gyarados-lvl100.png",
-      "alt": "Gyarados lvl100",
-      "descricao": "Gyarados upado ao lvl100.",
-      "data": "23/10/2025"
-    },
-    {
-      "img": "/img/archives/leaf-green/6-pokedex-box.png",
-      "alt": "Pokédex Box 6",
-      "descricao": "6ª Box da Pokédex, do nº0151 ao nº0180.",
-      "data": "23/10/2025"
-    },
-    {
-      "img": "/img/archives/leaf-green/7-pokedex-box.png",
-      "alt": "Pokédex Box 7",
-      "descricao": "7ª Box da Pokédex, do nº0181 ao nº0210.",
-      "data": "25/10/2025"
-    },
-    {
-      "img": "/img/archives/leaf-green/alakazam-lvl100.png",
-      "alt": "Alakazam lvl100",
-      "descricao": "Alakazam upado ao lvl100.",
-      "data": "25/10/2025"
-    },
-    {
-      "img": "/img/archives/leaf-green/8-pokedex-box.png",
-      "alt": "Pokédex Box 8",
-      "descricao": "8ª Box da Pokédex, do nº211 ao nº240.",
-      "data": "25/10/2025"
-    },
-    {
       "img": "/img/archives/leaf-green/raikou.png",
       "alt": "Troca Raikou",
       "descricao": "Raikou do evento Pokémon 10th Anniversary(2006 - Europa). Adquirido por troca.",
@@ -338,12 +272,6 @@
       "img": "/img/archives/leaf-green/suicune.png",
       "alt": "Troca Suicune",
       "descricao": "Suicune do evento Pokémon 10th Anniversary(2006 - EUA). Adquirido por troca.",
-      "data": "26/10/2025"
-    },
-    {
-      "img": "/img/archives/leaf-green/raichu-lvl100.png",
-      "alt": "Raichu lvl100",
-      "descricao": "Raichu upado ao lvl100.",
       "data": "26/10/2025"
     },
     {
@@ -363,6 +291,38 @@
       "alt": "Troca Celebi",
       "descricao": "Celebi Ageto, distribuido através do Pokémon Colosseum Bonus Disc(Japão). Adquirido por troca.",
       "data": "26/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/time-lvl100.png",
+      "alt": "Time lvl100",
+      "descricao": "Todo o time principal upado ao lvl100.",
+      "data": "31/10/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/charmander-shiny.png",
+      "alt": "Charmander Shiny",
+      "descricao": "Egg hunt de Charmander Shiny. Após 6724 ovos.",
+      "data": "03/11/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/dratini-shiny.png",
+      "alt": "Dratini Shiny",
+      "descricao": "Shiny hunt de Dratini. Após 6218 resets.",
+      "data": "03/11/2025"
+    }
+  ],
+  "ruby": [
+    {
+      "img": "/img/archives/ruby/zangoose-shiny.png",
+      "alt": "Zangoose Shiny",
+      "descricao": "Encontro e captura de uma Zangoose shiny. Na rota 114",
+      "data": "03/11/2025"
+    },
+    {
+      "img": "/img/archives/ruby/groudon.png",
+      "alt": "Groudon Encounter",
+      "descricao": "Encontro e captura de Groudon, na Cave of Origin.",
+      "data": "03/11/2025"
     }
   ]
 }
