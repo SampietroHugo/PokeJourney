@@ -549,11 +549,11 @@
     },
     {
       "type": "dragon",
-      "image": "/img/pokemons/frlg/dratini-shiny.png",
-      "alt": "Dratini",
-      "name": "Dratini",
+      "image": "/img/pokemons/frlg/dragonite-shiny.png",
+      "alt": "Dragonite",
+      "name": "Dragonite",
       "shiny": true,
-      "number": "#0147",
+      "number": "#0149",
       "game": "Leaf Green",
       "date": "03/11/2025"
     },
@@ -566,6 +566,36 @@
       "game": "Ruby",
       "date": "03/11/2025",
       "team": true
+    },
+    {
+      "type": "fighting",
+      "image": "/img/pokemons/frlg/machop-shiny.png",
+      "alt": "Machop",
+      "name": "Machop",
+      "shiny": true,
+      "number": "#0066",
+      "game": "Leaf Green",
+      "date": "04/11/2025"
+    },
+    {
+      "type": "dragon",
+      "image": "/img/pokemons/rs/salamence.png",
+      "alt": "Salamence",
+      "name": "Salamence",
+      "number": "#0373",
+      "game": "Ruby",
+      "date": "03/11/2025",
+      "team": true
+    },
+    {
+      "type": "normal",
+      "image": "/img/pokemons/frlg/pidgey-shiny.png",
+      "alt": "Pidgey",
+      "name": "Pidgey",
+      "shiny": true,
+      "number": "#0016",
+      "game": "Leaf Green",
+      "date": "04/11/2025"
     }
   ]
 }

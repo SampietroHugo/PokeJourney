@@ -171,36 +171,6 @@
       "data": "09/10/2025"
     },
     {
-      "img": "/img/archives/fire-red/1-pokedex-box.png",
-      "alt": "Pokédex Box 1",
-      "descricao": "1ª Box da Pokédex, do nº0001 ao nº0030.",
-      "data": "15/10/2025"
-    },
-    {
-      "img": "/img/archives/fire-red/2-pokedex-box.png",
-      "alt": "Pokédex Box 2",
-      "descricao": "2ª Box da Pokédex, do nº0031 ao nº0060.",
-      "data": "15/10/2025"
-    },
-    {
-      "img": "/img/archives/fire-red/3-pokedex-box.png",
-      "alt": "Pokédex Box 3",
-      "descricao": "3ª Box da Pokédex, do nº0061 ao nº0090.",
-      "data": "15/10/2025"
-    },
-    {
-      "img": "/img/archives/fire-red/4-pokedex-box.png",
-      "alt": "Pokédex Box 4",
-      "descricao": "4ª Box da Pokédex, do nº0091 ao nº0120.",
-      "data": "15/10/2025"
-    },
-    {
-      "img": "/img/archives/fire-red/5-pokedex-box.png",
-      "alt": "Pokédex Box 5",
-      "descricao": "5ª Box da Pokédex, do nº0121 ao nº0150.",
-      "data": "15/10/2025"
-    },
-    {
       "img": "/img/archives/fire-red/certificado-pokedex.png",
       "alt": "Certificado Pokédex",
       "descricao": "Certificado por capturar os 151 pokémons da Pokédex.",
@@ -309,6 +279,18 @@
       "alt": "Dratini Shiny",
       "descricao": "Shiny hunt de Dratini. Após 6218 resets.",
       "data": "03/11/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/machop-shiny.png",
+      "alt": "Machop Shiny Encounter",
+      "descricao": "Encontro e captura de um Machop shiny, na Granite Cave. Após uma hunt de 712 encontros.",
+      "data": "04/11/2025"
+    },
+    {
+      "img": "/img/archives/leaf-green/pidgey-shiny.png",
+      "alt": "Pidgey Shiny Encounter",
+      "descricao": "Encontro e captura de uma Pidgey shiny, na rota 7.",
+      "data": "04/11/2025"
     }
   ],
   "ruby": [
@@ -323,6 +305,12 @@
       "alt": "Groudon Encounter",
       "descricao": "Encontro e captura de Groudon, na Cave of Origin.",
       "data": "03/11/2025"
+    },
+    {
+      "img": "/img/archives/ruby/hall-of-fame.png",
+      "alt": "Hall da Fama",
+      "descricao": "Hall da Fama, primeira vitória contra a Elite Four.",
+      "data": "09/11/2025"
     }
   ]
 }

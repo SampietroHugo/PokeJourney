@@ -172,6 +172,14 @@ body {
     box-shadow: 0 0 12px rgba(0, 234, 255, 0.4);
 }
 
+.fighting {
+    background-color: #ffe0cc;
+}
+
+.fairy {
+    background-color: #ffe6f9;
+}
+
 .fire {
     background-color: #ffd6d6;
 }
